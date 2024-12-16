@@ -37,11 +37,13 @@ const lists = [
 function App() {
   return (
     <>
+    <div style={{width:'60%'}}>
       {lists.map((list) => {
         return (
           <SectionLists key={list.id} name={list.name} rating={list.rating} />
         );
       })}
+      </div>
     </>
   );
 }

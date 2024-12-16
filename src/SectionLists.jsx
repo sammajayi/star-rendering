@@ -5,8 +5,8 @@ function SectionLists(props) {
   
   const TOTAL = 5;
   return (
-    <section>
-      <h2>{name}</h2>
+    <section style={{width:'50%'}}>
+      <h2 style={{textAlign:'center'}}>{name}</h2>
       <p>
         Rating: {rating} / {TOTAL}
       </p>
